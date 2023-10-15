@@ -1,0 +1,162 @@
+/* Reset default styles */
+body, h1, h2, p, ul, li, nav {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000; /* Black background */
+    color: #fff; /* White text color */
+}
+
+/* Navigation Menu */
+nav {
+    background-color: #070606; /* Dark gray navigation bar */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+nav .blog-name {
+   
+    color: #efe9e3; 
+    font-size: 24px;
+    font-weight: bold;
+  
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    text-decoration: none;
+    color: #faf7f5; 
+}
+
+/* Header Section */
+header {
+    background-image: url('h2image.jpg'); /* Add a background image */
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 300px;
+    
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #fff; 
+}
+
+header p{
+font-style: italic;
+}
+/* Featured Travel Story Section */
+section {
+    background-color: #100f0f; 
+    padding: 10px;
+    margin: 20px;
+    border: 1px solid #100f0e; 
+}
+section pre{
+ text-align: center;
+}
+section a{
+    text-align: center;
+}
+section h2 {
+    font-size: 24px;
+    color: #fff; 
+}
+section img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+/* Footer Section */
+footer {
+    text-align: center;
+    background-color: #333; 
+    color: #fff;
+    padding: 10px 0;
+}
+
+
+/* Contact Information Section Styles */
+.contact-info {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.contact-info p {
+    margin: 10px 0;
+}
+
+.contact-info a {
+    color: #dddddd; /* Gold link color */
+    text-decoration: none;
+    border-bottom: 1px solid #ffcc29;
+}
+
+.contact-info a:hover {
+    color: #fff; /* White link color on hover */
+    border-bottom: 1px solid #fff;
+}
+/* Dropdown Menu Styles */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    font-size: 16px;
+    border: none;
+    background-color: transparent;
+    color: #333; /* Text color for the dropdown */
+    cursor: pointer;
+    padding: 10px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9; /* Background color for the dropdown menu */
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #333; /* Text color for dropdown items */
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd; /* Background color for hovered item */
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #f1f1f1; /* Background color for the dropdown button on hover */
+}
+.gallery a {
+    margin-right: 50px; /* Adjust the margin value to control the spacing */
+}
