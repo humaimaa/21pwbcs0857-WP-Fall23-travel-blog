@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us - Your Travel Blog</title>
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+    
+        <h1>Contact Us</h1>
+    
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="stories.html">Travel Stories</a></li>
+            <li><a href="destinations.html">Destination Guides</a></li>
+            <li><a href="photos.html">Photo Galleries</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <!-- Add links to other pages as needed -->
+        </ul>
+    </nav>
+
+    <section id="contact-form">
+        <h2>Contact Form:</h2>
+        <form action="process_contact.php" method="post">
+            <label for="name">Name:</label>
+            <br>
+            <input type="text" id="name" name="name" required>
+         
+            <br>
+            <label for="email">Email:</label>
+            <br>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <label for="subject">Subject:</label>
+            <br>
+            <input type="text" id="subject" name="subject" required>
+           <br>
+            <label for="message">Message:</label>
+            <br>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            <br>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    <section id="contact-info">
+        <h2>Contact Information:</h2>
+        <br>
+        <p>You can also reach us through email or on social media:</p>
+        <br>
+        <p>Email: HappyTrails@gmail.com</p>
+        <br>
+        <p>Connect with us on social media:</p>
+        <a href="https://www.facebook.com/">Facebook</a>
+        <a href="https://twitter.com/">Twitter</a>
+    </section>
+
+    <br>
+   
+    <footer>
+        <p>&copy; 2023 HappyTrails Blog</p>
+    </footer>
+</body>
+</html>
